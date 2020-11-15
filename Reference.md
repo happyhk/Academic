@@ -42,4 +42,7 @@ OHEM是挖掘利用现有的困难样本，具有现实意义。<br>
 （3）、A-Fast-RCNN(2017)：<br>
 这篇论文我还是很感兴趣的，毕竟用到了生成对抗的思想，回头再仔细研究一下。哈哈~<br>
 参考文献：[链接](https://blog.csdn.net/Jesse_Mx/article/details/72955981)
-
+### 基于加大minibatch的改进
+（1）、MegDet(2018)：<br>
+通过加大minibatch来提升网络性能。<br>
+参考文献：[链接](https://zhuanlan.zhihu.com/p/55775948)
