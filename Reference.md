@@ -1,5 +1,10 @@
 #可以借鉴的网络
 由于MASK R-CNN是由Faster R-CNN发展过来的，所以很多Faster R-CNN的改进思路也可以类比到MASK R-CNN上面。再通过实验数据进行对比得到是否可以得到更好的数据。<br>
+当然，发现MASK R-CNN相对于Faster R-CNN的改进也是巨大的，以下列出相对于Faster R-CNN的不同：<br>
+1）、使用ResNet101网络<br>
+2）、将Roi Pooling 层替换成了RoiAlign<br>
+3）、添加并列的MasK层<br>
+4）、由RPN网络转变成FPN网络<br>
 ## 改进思路图
 ![Image text](https://github.com/happyhk/Academic/blob/main/resource/two-stage.png)
 ### 基于特征网络的改进
