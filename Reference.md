@@ -25,7 +25,7 @@
 以往多数的object detection算法都是只采用顶层特征做预测，但我们知道低层的特征语义信息比较少，但是目标位置准确；高层的特征语义信息比较丰富，但是目标位置比较粗略。另外虽然也有些算法采用多尺度特征融合的方式，但是一般是采用融合后的特征做预测，而本文不一样的地方在于预测是在不同特征层独立进行的。这篇文章，作者利用了深度卷积神经网络固有的多尺度、多层级的金字塔结构去构建特征金字塔网络，使用一种自上而下的侧边连接，在所有尺度构建了高级语义特征图，这种结构就叫特征金字塔网络（FPN）。其在特征提取上改进明显，把FPN用在Faster R-CNN上，在COCO数据集上，一举超过了目前所有的单模型（single-model）检测方法。<br>
 参考文献：[链接](https://blog.csdn.net/xyj1536214199/article/details/80895716?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)
 （3）、CRAFT（2016）：<br>
-参考文献:[链接](https://blog.csdn.net/App_12062011/article/details/77944957)<br>
+参考文献：[链接](https://blog.csdn.net/App_12062011/article/details/77944957)<br>
 ### 更完善的ROI分类
 （1）、R-FCN(2016)<br>
 R-FCN是在Faster R-CNN的框架上进行改造，第一，把base的VGG16换车了ResNet，第二，把Fast R-CNN换成了先用卷积做prediction，再进行ROI pooling。由于ROI pooling会丢失位置信息，故在pooling前加入位置信息，即指定不同score map是负责检测目标的不同位置。pooling后把不同位置得到的score map进行组合就能复现原来的位置信息。<br>
