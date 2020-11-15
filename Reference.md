@@ -33,3 +33,13 @@ R-FCN是在Faster R-CNN的框架上进行改造，第一，把base的VGG16换车
 （2）、Cascade R-CNN(2018)<br>
 该算法对于任意的R-CNN（Faster rcnn、FPN、R-FCN等）都可以带来2到3个点的AP提升！！！ 而且实现十分简单，已经使用Pytorch在Pascal VOC上复现论文。<br>
 参考文件：[链接](https://zhuanlan.zhihu.com/p/42553957)<br>
+### 基于样本后处理的改进
+（1）、OHEM（2016）：<br>
+OHEM是挖掘利用现有的困难样本，具有现实意义。<br>
+参考文献：[链接](https://zhuanlan.zhihu.com/p/59002127)<br>
+（2）、soft NMS（2017）：<br>
+参考文献：[链接](https://blog.csdn.net/u014380165/article/details/79502197)
+（3）、A-Fast-RCNN(2017)：<br>
+这篇论文我还是很感兴趣的，毕竟用到了生成对抗的思想，回头再仔细研究一下。哈哈~<br>
+参考文献：[链接](https://blog.csdn.net/Jesse_Mx/article/details/72955981)
+
