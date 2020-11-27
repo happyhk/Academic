@@ -17,3 +17,7 @@ Spyder3 SG-34 GigE Vision (GEV)是一款高灵敏度、双线性扫描彩色相�
 | 1 | Flashing Red | Fatal Error. For example, camera temperature is too high and camera thermal shutdown has occurred. |
 | 2 | Flashing Green | Camera initialization or executing a long command. |
 | 3 | Solid Green | Camera is operational and functioning correctly. |
+<br>
+最大帧率(Frame Rate)/行频(Line Rate)：即相机采集传输图像的速率，对于面阵相机一般为每秒采集的帧数(Frames/Sec.)，对于线阵相机为每秒采集的行数(Hz)。<br>
+编码器为2000脉冲/转，即编码器每转一圈，在一分频的情况下，线阵相机可以扫2000行。<br>
+
