@@ -4,3 +4,8 @@ Spyder3 SG-34 GigE Vision (GEV)是一款高灵敏度、双线性扫描彩色相�
 | - | - |
 | Model Number | Description |
 | SG-34-02K80-00-R | 2K resolution, 80 MHz data rate, 18KHz line rate |
+<br>
+| 一个普通标题 | 一个普通标题 | 一个普通标题 |
+| ------ | ------ | ------ |
+| 短文本 | 中等文本 | 稍微长一点的文本 |
+| 稍微长一点的文本 | 短文本 | 中等文本 |
