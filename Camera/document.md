@@ -5,5 +5,17 @@ Spyder3 SG-34 GigE Vision (GEV)是一款高灵敏度、双线性扫描彩色相�
 | Model Number | Description |
 | ------ | ------ | 
 | SG-34-02K80-00-R | 2K resolution, 80 MHz data rate, 18KHz line rate |
+| Pixel Size | 14um * 14um |
+| resolution | 2048 pixels |
+| 曝光时间 | 3~3000us |
+| 最大线速率 | 18KHz |
+| 相机尺寸 | 72mm  x 60 mm x 65 mm |
+| 输入电压 | +12V ~ +15v |
 <br>
-
+本相机支持的系统为Window XP 或者Windows 7，之后的版本是否支持暂不知晓。<br>
+| - | - | - |
+| priority | Color of status LED | Meaning |
+| ---- | ------ | ------ |
+|   1  | Flashing Red | Fatal Error. For example, camera temperature is too high and camera thermal shutdown has occurred.|
+|   2  | Flashing Green | Camera initialization or executing a long command. |
+|   3  | Camera is operational and functioning correctly. |
