@@ -14,7 +14,7 @@ Spyder3 SG-34 GigE Vision (GEV)是一款高灵敏度、双线性扫描彩色相�
 本相机支持的系统为Window XP 或者Windows 7，之后的版本是否支持暂不知晓。<br>
 
 | priority Number | Color of status LED  | Meaning |
-| ------ | ------ | ------|
+| :------:| :------: | ------|
 | 1 | Flashing Red | Fatal Error. For example, camera temperature is too high and camera thermal shutdown has occurred |
 | 2 | Flashing Green | Camera initialization or executing a long command |
 | 3 | Solid Green | Camera is operational and functioning correctly |
